@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        width: 4%; 
+    }
+
+    .container-resultado {
+        width: 45%; 
+        height: 600px;
+    }
+
+    .entrada__texto {
+        height: 500px; 
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .resultado {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .aviso{
+        display: none;
+    }
+    button {
+        width: 300px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .logo {
+        width: 8%; 
+    }
+
+    .container-resultado {
+        width: 90vw; 
+        height: 400px;
+    }
+
+    .entrada__texto {
+        height: 300px; 
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .resultado {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .aviso{
+        display: none;
+    }
+    .btns{
+        margin: auto;
+        width: 90%;
+    }
+    button {
+        width: 80%;
+        height: 56px;
+        padding: 16px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/imagens/logo-alura.png" alt="logo da alura">
+    </header>
+    <main>
+
+            <section class="container__input__usuario">
+                <textarea name="" id="input__usuario" class="entrada__texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                <label for="input__usuario">não usa maiusculas e pontos</label>
+                
+                <div class="btns">
+                    <button id="btn__criptografar" onclick="exibirCriptografia()" >Criptografar</button>
+                    <button id="btn__descriptografar" onclick="exibirDescriptografia()">Descriptografar</button>
+                </div>
+
+            </section>
+
+            <section class="container-resultado">
+                <div class="aviso">
+                    <img src="" alt="">
+                    <h3>nenhuma mensagem encontrada</h3>
+                    <p>digite um texto que você deseja criptografar</p>
+                </div>
+                <textarea class="resultado" id="campo__texto__criptografado" disabled></textarea>
+                
+                
+                <button  id="btn__copiar" onclick="copiarTexto()">Copiar</button>
+            </section>
+
+    </main>
+    <footer>
+        <p>Devenvolvido por <a href="https://github.com/RaijinYung/Challenge-Alura-One">Guilherme Gomes</a>!</p>
+     </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
