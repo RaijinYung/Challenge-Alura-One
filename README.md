@@ -1,7 +1,7 @@
 Sobre o Projeto
 Este projeto foi criado como parte do primeiro desafio do programa ONE, uma iniciativa da Oracle em colaboração com a Alura. Trata-se de um decodificador de texto com um design responsivo, desenvolvido utilizando HTML, CSS e JavaScript.
 
-![Print da tela](imagens/print-tela-decodificador.png)
+![Print da tela](imagens/print.png)
 
 Chave de Criptografia
 As "chaves" de criptografia empregadas neste projeto são as seguintes:
